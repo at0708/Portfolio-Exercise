@@ -1,0 +1,46 @@
+/*
+ * 画面のスタイルシート
+ */
+
+ body {
+    font-family: "Noto Sans JP", "sans-serif";
+    margin 0;
+    min-width: 1076px;
+    background-image: url("/img/background1.png"), url("/img/background2.png");
+    }
+
+
+ /*
+  * [header]のスタイルシート
+  */
+
+    h1 div {
+        margin: 0px -20px 0px 0px;
+        padding: 10px 90px 10px 15px;
+        display: flex;
+        font-size: 17px;
+        background-color: #70BDCF;
+
+    }
+
+    .under {
+        border-bottom: solid 3px #6AEDC8;
+    }
+
+    .left-column {
+        float: left;
+        width: 0%;
+        color: white;
+    }
+
+    .center-column {
+        float: left;
+        width: 0%;
+        color: white;
+    }
+
+    .right-column {
+        float: left;
+        width: 0%;
+        color: white;
+    }
