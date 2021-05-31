@@ -5,8 +5,8 @@
  body {
     font-family: "Noto Sans JP", "sans-serif";
     margin 0;
-    min-width: 1076px;
-    background-image: url("/img/background1.png"), url("/img/background2.png");
+    min-width: 1920px;
+    background-image: url("./img/background1.png"), url("./img/background2.png");
     }
 
 
@@ -22,12 +22,11 @@
         font-weight: lighter;
         font-family: 'Avenir';
         letter-spacing: 2px;
-        background-color: #70BDCF;
 
     }
 
     .under {
-        border-bottom: solid 3px #6AEDC8;
+        border-bottom: solid 2px #6AEDC8;
     }
 
     .left-column {
@@ -47,3 +46,118 @@
         width: 0%;
         color: white;
     }
+
+/*
+ * [main]のスタイルシート
+ */
+
+ .block-main {
+    text-align: center;
+    margin: 100px 0;
+}
+
+/*
+* [profile]のスタイルシート
+*/
+
+.item-list {
+   width: 100%;
+   max-width: 348px;
+   margin: 0 auto;
+   display:flex;
+   justify-content:center;
+   align-items: center;
+}
+
+.alphabet {
+    display: block;
+    font-size: 25px;
+    font-weight: normal;
+    color: white;
+    margin: 10px 0 0 50px;
+    letter-spacing: 2px;
+    white-space: nowrap;
+}
+
+.under {
+    border-bottom: solid 2px #6AEDC8;
+}
+
+.kanji {
+    display: block;
+    font-size: 20px;
+    font-weight: normal;
+    color: white;
+    margin: 15px 0 0 50px;
+    letter-spacing: 2px;
+    white-space: nowrap;
+}
+
+.profession {
+    display: block;
+    font-size: 20px;
+    font-weight: normal;
+    color: white;
+    margin: 10px 0 0 50px;
+    letter-spacing: 2px;
+    white-space: nowrap;
+}
+
+.profile {
+    color: black;
+    font-size: 30px;
+    margin: 300px 0 0 0;
+    align-items: center;
+    letter-spacing: 2px;
+}
+
+.image_1 {
+    width: 250px;
+    align-items: center;
+    margin: 30px 0 0 15px;
+}
+
+.skill {
+    color: black;
+    margin: 70px 0 50px 0;
+    letter-spacing: 2px;
+}
+
+.introduction {
+    color: black;
+    letter-spacing: 2px;
+}
+
+.icon-list {
+   list-style: none;
+   color: white;
+   width: 100%;
+   max-width: 247px;
+   margin: 30px auto;
+   padding: 0;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.image_2 {
+	width: 90%;
+    height: 90%;
+    margin: 0 -25px 0 0;
+}
+
+.image_3 {
+	width: 90%;
+    height: 90%;
+    margin: 0 0 0 -25px;
+}
+
+.icon-list li {
+   margin-right: 60px;
+   color: white;
+}
+
+.icon-list li:last-child {
+   margin-right: 0;
+   color: white;
+}
