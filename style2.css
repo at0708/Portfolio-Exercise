@@ -19,6 +19,9 @@
         padding: 10px 90px 10px 15px;
         display: flex;
         font-size: 17px;
+        font-weight: lighter;
+        font-family: 'Avenir';
+        letter-spacing: 2px;
         background-color: #70BDCF;
 
     }
