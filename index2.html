@@ -36,7 +36,7 @@
         -->
        
             <div class="item-list">
-                <img src="./img/profile.png">
+                <img src="./img/profile.png" class="photo">
                 <div>
                     <b class="alphabet">
                         <span class="under">Asami Takahashi</span>
@@ -54,7 +54,7 @@
                     About
                 </p>
                 <div class="item-list2">
-                    <img src="./img/グループ 1.png" class="image_1">
+                    <img src="./img/gear.png" class="img_1">
                 </div>
                 <p class="skill">
                     HTML / CSS / JavaScript / React JS / Redux /Python / Django / ExpressJS / AWS (Basics) / Docker (Basics)
@@ -68,12 +68,12 @@
             <ul class="icon-list">
                 <li>
                     <a href="">
-                        <img src="./img/github.png" alt="GitHubアイコン" class="image_2">
+                        <img src="./img/github.png" alt="GitHubアイコン" class="img_2">
                     </a>
                 </li>
                 <li>
                     <a href="">
-                        <img src="./img/in.png" alt="Inアイコン" class="image_3">
+                        <img src="./img/in.png" alt="Inアイコン" class="img_3">
                     </a>
                 </li>
             </ul>
@@ -82,11 +82,79 @@
         <!--
             projectsの箱
         -->
-        <div>
+        <div class="box-projects">
+            <h2 class="projects">
+                Projects
+            </h2>
+            <div class="item-list2">
+                <img src="./img/tv.png" class="img_4">
+            </div>
+            <ul class="projects-list">
+                <li>
+                    <img src="./img/project_1.png" alt="Twitterクローンの画像">
+                    <div class="project_1">
+                        <h3>Twitterクローン</h3>
+                        <span>Twitterの複製アプリです。ツイートを投稿できます。</span>
+                        <span>PHP / MySQLを利用しています。</span>
+                        <P>テストアカウント</P>
+                        <p>Email : Test@gmail.com</p>
+                        <p>Pass : 123456</p>
+                    </div>
+                    <div class="link">
+                        <a href="">Webサイト</a>
+                        <a href="">GitHub</a>
+                    </div>
+                </li>
 
+                <li>
+                    <img src="./img/project_2.png" alt="Netflixクローンの画像">
+                    <div class="project_2">
+                        <h3>Netflixクローン</h3>
+                        <span>Netflixの複製サービスです。</span>
+                        <span>Laravel / MySQLを利用しています。</span>
+                        <P>テストアカウント</P>
+                        <p>Email : Test@gmail.com</p>
+                        <p>Pass : 123456</p>
+                    </div>
+                    <div class="link">
+                        <a href="">Webサイト</a>
+                        <a href="">GitHub</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        <!--
+            contactの箱
+        -->
+        <div class="box-contact">
+            <h2 class="contact">
+                Contact
+            </h2>
+            <div class="item-list2">
+                <img src="./img/tel.png" class="img_5">
+            </div>
+            <ul class="projects-list">
+                <li>
+                    <img src="./img/phone.png" alt="Phoneの画像">
+                </li>
+
+                <li>
+                    <img src="img/mail.png" alt="Mailの画像">
+                </li>
+            </ul>
         </div>
 
     </div>
+
+ <!--
+        footerタグの作成
+        ・copyrightの設定
+        →pタグを使います
+    -->
+    <footer class="block-footer">
+        <p>©Asami Takahashi All rights reserved</p>
+    </footer>
 
 </body>
 </html>
