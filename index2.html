@@ -17,11 +17,9 @@
         ・ロゴの設定をします
         ・h1タグとaタグとspanタグを使っていきます
     -->
-
-    
-
-    <div style="position: relative; display:inline-block;">
-        <img src="img/background1.png"> 
+    <div style class="introduction">
+        <img src="img/background1.png" class="background1">
+        <div class="introduction-block">
         <div style="position: absolute; top: 0; left: 0; max-width: 100%; max-height: 100%; padding: 100px; text-align: left;">
 
                 <h1>
@@ -29,7 +27,7 @@
                     <div class="right-column">A<span class="under">bou</span>t</div>
                     <div class="center-column">P<span class="under">roject</span>s</div>
                 </h1>
-
+        </div>
                 <!--
                 mainタグの作成
                 ・profile用とprojects用の箱を作成する
@@ -57,7 +55,7 @@
                 </div>
         </div>
     </div>
-                    <div>
+                    <div class="introduction">
                         <p class="profile">
                             About
                         </p>
@@ -91,9 +89,9 @@
                             </a>
                         </li>
                     </ul>
-
-        <div>
-            <img src="img/background2.png" class="background2">
+    <div style class="introduction">
+        <img src="img/background2.png" class="background2"> 
+        <div style="position: absolute; top: 0; left: 0; max-width: 100%; max-height: 100%; padding: 100px; text-align: left;">
                     <!--
                         projectsの箱
                     -->
@@ -101,12 +99,14 @@
                         <h2 class="projects">
                             Projects
                         </h2>
-                        <div class="item-list2">
+                        <div class="item-list3">
                             <img src="./img/tv.png" class="img_4">
+                            <br>
+                            <img src="./img/project_1.png" alt="Twitterクローンの画像" class="twitter">
+                            <img src="./img/project_2.png" alt="Netflixクローンの画像" class="netflix">
                         </div>
                         <ul class="projects-list">
-                            <li>
-                                <img src="./img/project_1.png" alt="Twitterクローンの画像">
+                            <li>                                
                                 <div class="project_1">
                                     <h3>Twitterクローン</h3>
                                     <span>Twitterの複製アプリです。ツイートを投稿できます。</span>
@@ -122,7 +122,6 @@
                             </li>
 
                             <li>
-                                <img src="./img/project_2.png" alt="Netflixクローンの画像">
                                 <div class="project_2">
                                     <h3>Netflixクローン</h3>
                                     <span>Netflixの複製サービスです。</span>
@@ -137,7 +136,8 @@
                                 </div>
                             </li>
                         </ul>
-                    </div>
+        </div>
+    </div>
 
                     <!--
                         contactの箱
@@ -146,18 +146,13 @@
                         <h2 class="contact">
                             Contact
                         </h2>
-                        <div class="item-list2">
+                        <div class="item-list4">
                             <img src="./img/tel.png" class="img_5">
+                            <br>
+                            <img src="./img/phone.png" alt="Phoneの画像" class="phone">
+                            <img src="img/mail.png" alt="Mailの画像" class="mail">
                         </div>
-                        <ul class="projects-list">
-                            <li>
-                                <img src="./img/phone.png" alt="Phoneの画像">
-                            </li>
-
-                            <li>
-                                <img src="img/mail.png" alt="Mailの画像">
-                            </li>
-                        </ul>
+                        
                     </div>
         </div>
 
@@ -166,10 +161,14 @@
         ・copyrightの設定
         →pタグを使います
     -->
-    <img src="img/background3.png" class="background3">
-    <footer class="block-footer">
-        <p>©Asami Takahashi All rights reserved</p>
-    </footer>
+    <div style="position: relative; display:inline-block;">
+        <img src="img/background3.png" class="background3"> 
+        <div style="position: absolute; top: 0; left: 0; max-width: 100%; max-height: 100%; padding: 100px; text-align: left;">
+            <footer class="block-footer">
+                <p>©Asami Takahashi All rights reserved</p>
+            </footer>
+        </div>
+    </div>
 
 </body>
 </html>
