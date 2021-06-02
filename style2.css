@@ -27,7 +27,8 @@ h1 div {
 
 .background1 {
     background-image:url(img/background1.png); /* 画像のURLを指定 */
-    background-position:center bottom; /* 画像の表示位置を指定 */
+    background-repeat:  no-repeat;
+    background-position:center center; /* 画像の表示位置を指定 */
     background-size:cover; /* 画像のサイズを指定  */
     width:525%; /* 横幅のサイズを指定  */
     height:1000px; /* 縦幅のサイズを指定  */
@@ -79,15 +80,16 @@ h1 div {
    margin: 0 auto;
    display:flex;
    justify-content: space-between;
+   position: relative;
 }
 
 .photo {
-    width: 400px;
-	height: 400px;
+    width: 500px;
+	height: 500px;
 	border-radius: 100%;
     padding: 20px;
     border: 2px solid white;
-    margin-top: -870px;
+    margin-top: -950px;
     margin-left: -1300px;
     margin-right: 60px;
 }
@@ -101,7 +103,7 @@ h1 div {
     letter-spacing: 2px;
     white-space: nowrap;
     text-align: center;
-    margin-top: -780px;
+    margin-top: -800px;
 }
 
 .under {
@@ -144,7 +146,7 @@ h1 div {
 
 .profile {
     color: black;
-    font-size: 70px;
+    font-size: 100px;
     align-items: center;
     letter-spacing: 5px;
     margin-top: -100px;
@@ -153,6 +155,7 @@ h1 div {
 .img_1 {
     text-align: center;
     margin: -30px 0 50px 0;
+    width: 12%;
 }
 
 .skill {
@@ -225,6 +228,8 @@ h1 div {
 
 .item-list3 {
     text-align: center;
+    position:relative;
+    width: 100%;
 }
 
 .background2 {
@@ -233,6 +238,7 @@ h1 div {
     background-size:cover; /* 画像のサイズを指定  */
     width:525%; /* 横幅のサイズを指定  */
     height:2500px; /* 縦幅のサイズを指定  */
+    margin-bottom: -100px;
 }
 
 .box-projects {
@@ -240,14 +246,17 @@ h1 div {
     letter-spacing: 5px;
     margin-top: -2200px;
     width: 100%;
+    position:relative;
 }
 
 .projects-list {
-    font-size: 25px;
-    letter-spacing: 2px;
-    text-align: center;
-    position:relative;
+    list-style: none;
     width: 100%;
+    max-width: 1076px;
+    margin: 30px auto;
+    padding: 0;
+    text-align: left;
+    margin-left: 1500px; 
 }
 
 .projects-list li {
@@ -319,7 +328,7 @@ h1 div {
 
 .projects {
     color: white;
-    font-size: 70px;
+    font-size: 100px;
     text-align: center;
     letter-spacing: 5px;
     font-weight: lighter;
@@ -329,20 +338,32 @@ h1 div {
 }
 
 .twitter {
+    margin-top: 40px;
+    margin-right: 1100px;
+    margin-left: -350px;
+
+}
+
+.twitter-yoko {
     margin-top: 50px;
-    margin-right: 280px;
-    width:15%;
+    margin-left: -350px;
 }
 
 .netflix {
+    margin-top: 40px;
+    margin-left: 750px;
+}
+
+.netflix-yoko {
     margin-top: 50px;
-    margin-left: 160px;
-    width:15%;
+    margin-right: -750px;
+    margin-left: 750px;
 }
 
 .img_4 {
     text-align: center;
-    margin: -30px 0 10px 0;
+    margin: -40px 0 0 0;
+    min-width: 12%;
 }
 
 .project_1 {
@@ -355,10 +376,17 @@ h1 div {
     display: inline-block;
     margin-top: 50px;
     margin-right: 1250px;
+    width: 100%;
+}
+
+.yoko {
+    display: flex;
 }
 
 .link {
-    margin-right: 1780px;
+    margin-top: 40px;
+    margin-right: 350px;
+    margin-left: -350px;
 }
 
 .project_2 {
@@ -370,10 +398,13 @@ h1 div {
     display: inline-block;
     margin-top: -2000px;
     margin-left: 950px;
+    width: 100%;
 }
 
 .link2 {
-    margin-left: 625px;
+    margin-top: -70px;
+    margin-left: 1500px;
+    margin-right: -1500px;
 }
 
 /*
@@ -403,11 +434,12 @@ h1 div {
  .img_5 {
     text-align: center;
     margin: -30px 0 150px 0;
+    width: 10%;
 }
 
 .contact {
     color: black;
-    font-size: 70px;
+    font-size: 100px;
     text-align: center;
     letter-spacing: 5px;
     font-weight: lighter;
@@ -416,11 +448,13 @@ h1 div {
 }
 
 .phone {
-    margin-right: 100px;
+    margin-right: 200px;
+    width: 15%;
 }
 
 .mail {
-    margin-left: 100px;
+    margin-left: 200px;
+    width: 15%;
 }
 
 /*
@@ -431,23 +465,15 @@ h1 div {
     background-position:center bottom; /* 画像の表示位置を指定 */
     background-size:cover; /* 画像のサイズを指定  */
     width:525%; /* 横幅のサイズを指定  */
-    height:200px; /* 縦幅のサイズを指定  */
+    height:150px; /* 縦幅のサイズを指定  */
 }
 
-.block-footer {
-    background-image:url("./img/border3.png");
-    background-repeat: no-repeat;
-}
-
-.block-footer p {
+footer > p {
     color: #938F8F;
-    clear: both;
-    text-align: center;
-    font-size: 25px;
-    margin-top: 50px;
-    margin-left: -400px;
+    font-size: 30px;
     position:relative;
-    bottom:375px;
+    margin-top: 500px;
+    margin-left: 2270px;
 }
 
 /*
