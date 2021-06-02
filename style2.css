@@ -6,6 +6,7 @@ body {
     font-family: "Noto Sans JP", "sans-serif";
     margin: 0;
     flex: 1;
+    min-width: none;
 }
 
 /*
@@ -21,7 +22,7 @@ h1 div {
     letter-spacing: 2px;
     position:relative;
     right: 85px;
-    bottom:85px;
+    bottom:110px;
 }
 
 .background1 {
@@ -224,7 +225,7 @@ h1 div {
 
 .item-list3 {
     text-align: center;
- }
+}
 
 .background2 {
     background-image:url(img/background2.png); /* 画像のURLを指定 */
@@ -242,25 +243,17 @@ h1 div {
 }
 
 .projects-list {
-   list-style: none;
-   width: 100%;
-   max-width: 1076px;
-   margin:auto;
-   padding: 0;
-   text-align: left;
-   overflow: hidden;
-   display: flex;
+    font-size: 25px;
+    letter-spacing: 2px;
+    text-align: center;
+    position:relative;
+    width: 100%;
 }
 
 .projects-list li {
    display: block;
    width: 100%;
-   float: left;
    margin-right: 200px;
-}
-
-.projects-list li:last-child {
-    margin-right: 0;
 }
 
 .projects-list li img {
@@ -272,15 +265,18 @@ h1 div {
     font-size: 40px;
     margin: 10px 0;
     font-weight: 100;
+    width: 100%;
 }
 .projects-list li p {
     font-size: 30px;
     margin: 20px 0;
     font-weight: 100;
+    width: 100%;
 }
 
 .projects-list li span {
    font-size: 25px;
+   width: 100%;
 }
 
 .projects-list list link {
@@ -288,19 +284,38 @@ h1 div {
    justify-content: left;
    align-items: left;
    margin-top: 15px;
+   width: 100%;
 }
 
+.projects-list list link2 {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    margin-top: 15px;
+    width: 100%;
+ }
+
 .projects-list li .link a {
-   padding: 5px 20px;
-   margin-right: 10px;
    padding:10px 15px; /* 枠と文字の空間 */
-   margin:0 5px; /* 枠の外の空間 */
+   margin:0 5x; /* 枠の外の空間 */
    border:3px solid white; /* 枠の線の太さ・種類・色 */
    font-size: 15px;
    text-decoration: none;
    color: white;
    margin-top: -200px;
+   width: 100%;
 }
+
+.projects-list li .link2 a {
+    padding:10px 15px; /* 枠と文字の空間 */
+    margin:0 5x; /* 枠の外の空間 */
+    border:3px solid white; /* 枠の線の太さ・種類・色 */
+    font-size: 15px;
+    text-decoration: none;
+    color: white;
+    margin-top: -200px;
+    width: 100%;
+ }
 
 .projects {
     color: white;
@@ -309,40 +324,56 @@ h1 div {
     letter-spacing: 5px;
     font-weight: lighter;
     font-family: 'Avenir';
+    margin-top: -10px;
+    width: 100%;
 }
 
 .twitter {
+    margin-top: 50px;
     margin-right: 280px;
+    width:15%;
 }
 
 .netflix {
+    margin-top: 50px;
     margin-left: 160px;
+    width:15%;
 }
 
 .img_4 {
     text-align: center;
-    margin: -30px 0 50px 0;
+    margin: -30px 0 10px 0;
 }
 
 .project_1 {
     color: white;
-    font-size: 25px;
-    letter-spacing: 2px;
+    font-size: 70px;
+    line-height:20px;
+    letter-spacing: 5px;
+    margin-top: -100px;
     text-align: left;
-    position:relative;
-    margin-top: 30px;
-    margin-bottom: 70px;
+    display: inline-block;
+    margin-top: 50px;
+    margin-right: 1250px;
+}
+
+.link {
+    margin-right: 1780px;
 }
 
 .project_2 {
     color: white;
-    font-size: 25px;
-    letter-spacing: 2px;
+    font-size: 70px;
+    line-height:20px;
+    letter-spacing: 5px;
     text-align: left;
-    position:relative;
-    margin-top: 30px;
-    margin-bottom: 70px;
-    margin-left: 130px;
+    display: inline-block;
+    margin-top: -2000px;
+    margin-left: 950px;
+}
+
+.link2 {
+    margin-left: 625px;
 }
 
 /*
