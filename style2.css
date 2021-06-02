@@ -137,7 +137,7 @@ h1 div {
 	vertical-align: middle;
 }
 
- .item-list2 {
+.item-list2 {
     text-align: center;
  }
 
@@ -222,11 +222,11 @@ h1 div {
  * [projects]のスタイルシート
  */
 
- .item-list3 {
+.item-list3 {
     text-align: center;
  }
 
- .background2 {
+.background2 {
     background-image:url(img/background2.png); /* 画像のURLを指定 */
     background-position:center bottom; /* 画像の表示位置を指定 */
     background-size:cover; /* 画像のサイズを指定  */
@@ -234,26 +234,27 @@ h1 div {
     height:2500px; /* 縦幅のサイズを指定  */
 }
 
- .box-projects {
-    margin: 80px 0 0;
+.box-projects {
     align-items: center;
     letter-spacing: 5px;
+    margin-top: -2200px;
+    width: 100%;
 }
 
 .projects-list {
    list-style: none;
    width: 100%;
    max-width: 1076px;
-   margin: 30px 0 0 250px;
+   margin:auto;
    padding: 0;
    text-align: left;
    overflow: hidden;
+   display: flex;
 }
 
 .projects-list li {
    display: block;
    width: 100%;
-   max-width: 348px;
    float: left;
    margin-right: 200px;
 }
@@ -268,13 +269,18 @@ h1 div {
 }
 
 .projects-list li h3 {
-    font-size: 24px;
+    font-size: 40px;
     margin: 10px 0;
+    font-weight: 100;
+}
+.projects-list li p {
+    font-size: 30px;
+    margin: 20px 0;
     font-weight: 100;
 }
 
 .projects-list li span {
-   font-size: 18px;
+   font-size: 25px;
 }
 
 .projects-list list link {
@@ -287,40 +293,56 @@ h1 div {
 .projects-list li .link a {
    padding: 5px 20px;
    margin-right: 10px;
+   padding:10px 15px; /* 枠と文字の空間 */
+   margin:0 5px; /* 枠の外の空間 */
+   border:3px solid white; /* 枠の線の太さ・種類・色 */
    font-size: 15px;
    text-decoration: none;
    color: white;
+   margin-top: -200px;
 }
 
 .projects {
     color: white;
     font-size: 70px;
-    align-items: center;
+    text-align: center;
     letter-spacing: 5px;
     font-weight: lighter;
     font-family: 'Avenir';
 }
 
 .twitter {
-    margin-right: 100px;
+    margin-right: 280px;
 }
 
 .netflix {
-    margin-left: 100px;
+    margin-left: 160px;
 }
 
 .img_4 {
-    width: 500px;
-    align-items: center;
-    margin: 30px 0 0 650px;
+    text-align: center;
+    margin: -30px 0 50px 0;
 }
 
 .project_1 {
     color: white;
+    font-size: 25px;
+    letter-spacing: 2px;
+    text-align: left;
+    position:relative;
+    margin-top: 30px;
+    margin-bottom: 70px;
 }
 
 .project_2 {
     color: white;
+    font-size: 25px;
+    letter-spacing: 2px;
+    text-align: left;
+    position:relative;
+    margin-top: 30px;
+    margin-bottom: 70px;
+    margin-left: 130px;
 }
 
 /*
@@ -329,10 +351,12 @@ h1 div {
 
  .item-list4 {
     text-align: center;
+    margin-bottom: 400px;
  }
 
  .box-contact {
     margin: 80px 0 0;
+    width: 100%
 }
 
 .contact-list {
@@ -353,10 +377,11 @@ h1 div {
 .contact {
     color: black;
     font-size: 70px;
-    align-items: center;
+    text-align: center;
     letter-spacing: 5px;
     font-weight: lighter;
     font-family: 'Avenir';
+    margin-top: -400px;
 }
 
 .phone {
@@ -375,19 +400,23 @@ h1 div {
     background-position:center bottom; /* 画像の表示位置を指定 */
     background-size:cover; /* 画像のサイズを指定  */
     width:525%; /* 横幅のサイズを指定  */
-    height:100px; /* 縦幅のサイズを指定  */
-}
-
- .block-footer p {
-    color: #938F8F;
-    text-align: center;
-    font-size: 15px;
-    margin: 50px 0 20px;
+    height:200px; /* 縦幅のサイズを指定  */
 }
 
 .block-footer {
-background-image:url("./img/border3.png");
-background-repeat: no-repeat;
+    background-image:url("./img/border3.png");
+    background-repeat: no-repeat;
+}
+
+.block-footer p {
+    color: #938F8F;
+    clear: both;
+    text-align: center;
+    font-size: 25px;
+    margin-top: 50px;
+    margin-left: -400px;
+    position:relative;
+    bottom:375px;
 }
 
 /*
