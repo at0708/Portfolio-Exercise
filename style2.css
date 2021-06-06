@@ -309,7 +309,7 @@ h1 div {
 
 .projects-list li .link a {
    padding:10px 15px; /* 枠と文字の空間 */
-   margin:0 5x; /* 枠の外の空間 */
+   margin:0 5px; /* 枠の外の空間 */
    border:3px solid white; /* 枠の線の太さ・種類・色 */
    font-size: 20px;
    text-decoration: none;
@@ -321,7 +321,7 @@ h1 div {
 
 .projects-list li .link2 a {
     padding:10px 15px; /* 枠と文字の空間 */
-    margin:0 5x; /* 枠の外の空間 */
+    margin:0 5px; /* 枠の外の空間 */
     border:3px solid white; /* 枠の線の太さ・種類・色 */
     font-size: 20px;
     text-decoration: none;
@@ -393,7 +393,7 @@ h1 div {
 }
 
 .link {
-    margin-top: 30px;
+    margin-top: 65px;
     margin-right: 1170px;
     margin-left: -1170px;
 }
@@ -411,7 +411,7 @@ h1 div {
 }
 
 .link2 {
-    margin-top: 1355px;
+    margin-top: 1390px;
     margin-left: 135px;
     margin-right: -135px;
 }
@@ -670,7 +670,7 @@ h1 div {
    width: 100%;
    max-width: 247px;
    margin: 30px auto;
-   margin-bottom: 100px;
+   margin-bottom: 150px;
    padding: 0;
    display: flex;
    justify-content: center;
@@ -717,14 +717,14 @@ h1 div {
     background-position:center bottom; /* 画像の表示位置を指定 */
     background-size:cover; /* 画像のサイズを指定  */
     width:525%; /* 横幅のサイズを指定  */
-    height:3000px; /* 縦幅のサイズを指定  */
+    height:2000px; /* 縦幅のサイズを指定  */
     margin-bottom: -100px;
     margin-top: -300px;
 }
 
 .box-projects {
     align-items: center;
-    margin-top: -2700px;
+    margin-top: -1750px;
     width: 100%;
     position:relative;
 }
@@ -793,27 +793,29 @@ h1 div {
  }
 
 .projects-list li .link a {
-   padding:10px 15px; /* 枠と文字の空間 */
-   margin:0 5x; /* 枠の外の空間 */
-   border:3px solid white; /* 枠の線の太さ・種類・色 */
-   font-size: 20px;
+   padding:5px 5px; /* 枠と文字の空間 */
+   margin:0 5px; /* 枠の外の空間 */
+   border:2px solid white; /* 枠の線の太さ・種類・色 */
+   font-size: 10px;
    text-decoration: none;
    color: white;
    margin-top: -200px;
    margin-right: 20px;
    width: 100%;
+   letter-spacing: 2px;
 }
 
 .projects-list li .link2 a {
-    padding:10px 15px; /* 枠と文字の空間 */
-    margin:0 5x; /* 枠の外の空間 */
-    border:3px solid white; /* 枠の線の太さ・種類・色 */
-    font-size: 20px;
+    padding:5px 5px; /* 枠と文字の空間 */
+    margin:0 5px; /* 枠の外の空間 */
+    border:2px solid white; /* 枠の線の太さ・種類・色 */
+    font-size: 10px;
     text-decoration: none;
     color: white;
     margin-top: -200px;
     margin-right: 20px;
     width: 100%;
+    letter-spacing: 2px;
  }
 
 .projects {
@@ -840,16 +842,17 @@ h1 div {
 }
 
 .netflix {
-    margin-top: 110px;
-    margin-right: -20px;
-    margin-left: 750px;
+    max-width: 280px;
+	width: 1%;
+    margin-top: 500px;
+    margin-right: -200px;
+    margin-left: -100px;
     margin-bottom: 40px;
 }
 
 .netflix-yoko {
-    margin-top: 50px;
-    margin-right: -750px;
-    margin-left: 750px;
+    margin-top: 300px;
+    margin-left: -1200px;
 }
 
 .img_4 {
@@ -883,19 +886,19 @@ h1 div {
 
 .project_2 {
     color: white;
-    font-size: 35px;
+    font-size: 25px;
     line-height:20px;
     text-align: left;
     display: inline-block;
-    margin-top: -2000px;
-    margin-left: 475px;
-    width: 100%;
+    margin-top: -100px;
+    margin-left: 1005px;
+    width: 1%;
 }
 
 .link2 {
-    margin-top: 1360px;
-    margin-left: 67px;
-    margin-right: -67x;
+    margin-top: 1000px;
+    margin-right: 200px;
+    margin-left: -605px;
 }
 
 /*
@@ -925,30 +928,34 @@ h1 div {
 
  .img_5 {
     text-align: center;
-    margin: -30px 0 150px 0;
-    width: 7%;
+    margin: 50px 0 150px 0;
+    width: 35%;
 }
 
 .contact {
     color: black;
-    font-size: 50px;
+    font-size: 20px;
     text-align: center;
-    letter-spacing: 20px;
+    letter-spacing: 5px;
     font-weight: lighter;
     font-family: 'Avenir';
     margin-top: -400px;
 }
 
 .phone {
-    margin-top: 70px;
+    margin-top: -80px;
     margin-right: 150px;
-    width: 8%;
+    margin-left: 75px;
+    margin-bottom: -60px;
+    width: 60%;
 }
 
 .mail {
     margin-top: 70px;
-    margin-left: 150px;
-    width: 8%;
+    margin-right: 150px;
+    margin-left: 75px;
+    margin-bottom: -280px;
+    width: 60%;
 }
 
 /*
@@ -959,16 +966,6 @@ h1 div {
     background-position:center bottom; /* 画像の表示位置を指定 */
     background-size:cover; /* 画像のサイズを指定  */
     width:525%; /* 横幅のサイズを指定  */
-    height:140px; /* 縦幅のサイズを指定  */
-}
-
-footer>p {
-    color: #938F8F;
-    font-size: 15px;
-    font-weight: lighter;
-    font-family: 'Avenir';
-    display: flex;
-    position:relative;
-    left: 1135px;
-    top:50px;
-}
+    height:80px; /* 縦幅のサイズを指定  */
+    margin-top: -80px;
+    margin-bottom: -42px;
